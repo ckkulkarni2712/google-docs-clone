@@ -1,0 +1,38 @@
+  body {
+    background-color: #F9FBFD;
+    margin: 0;
+  }
+  .container .ql-editor {
+    width: 8.5in;
+    min-height: 11in;
+    padding: 1in;
+    margin: 1rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+    background-color: white;
+  }
+  
+  .container .ql-container.ql-snow {
+    border: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container .ql-toolbar.ql-snow {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #EDF2FA;
+    border: none;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .5);
+    border-radius: 16px;
+  }
+  .container .ql-editor.ql-blank::before {
+    color: rgba(0,0,0,0.6);
+    content: attr(data-placeholder);
+    font-style: italic;
+    left: 15px;
+    pointer-events: none;
+    right: 15px;
+}

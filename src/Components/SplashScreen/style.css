@@ -1,0 +1,22 @@
+.grid-main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: #444;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-child{
+    padding: 20px;
+    background-color: #FFFF;
+    width: 208px;;
+    cursor: pointer;
+    height: 250px;
+    border: 1px solid #dfe1e5;
+    opacity: 1;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

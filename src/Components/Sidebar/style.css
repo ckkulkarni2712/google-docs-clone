@@ -1,0 +1,29 @@
+.sidebar {
+    width: fit-content;
+    height: 100vh;
+    background-color: #F9FBFD;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+    padding: 20px
+  }
+  
+  .sidebar-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .sidebar-item svg {
+    margin-right: 10px;
+  }
